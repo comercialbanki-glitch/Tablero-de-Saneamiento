@@ -1,0 +1,118 @@
+{
+  "P": {
+    "feePct": 12,
+    "feeMin": 800000,
+    "feeCap": 40,
+    "descMin": 20,
+    "margenMin": 300000,
+    "gasto": 50000,
+    "comExt": 30,
+    "comInt": 20,
+    "ptsProm": 8,
+    "salario": 2000000,
+    "factor": 1.52,
+    "herr": 400000,
+    "cap": 35,
+    "lvl": [
+      {
+        "n": "Base",
+        "from": 0,
+        "val": 6000
+      },
+      {
+        "n": "Plata",
+        "from": 100,
+        "val": 8000
+      },
+      {
+        "n": "Oro",
+        "from": 200,
+        "val": 10000
+      }
+    ],
+    "tipos": [
+      {
+        "n": "Casa de cobro / cartera castigada",
+        "ini": 15,
+        "oMin": 25,
+        "oMax": 35,
+        "techo": 45
+      },
+      {
+        "n": "Banco / entidad financiera (mora < 1 año)",
+        "ini": 40,
+        "oMin": 50,
+        "oMax": 65,
+        "techo": 75
+      },
+      {
+        "n": "Cooperativa / fondo / libranza",
+        "ini": 55,
+        "oMin": 65,
+        "oMax": 80,
+        "techo": 90
+      },
+      {
+        "n": "Telco, servicios y retail",
+        "ini": 15,
+        "oMin": 20,
+        "oMax": 30,
+        "techo": 40
+      }
+    ],
+    "sla": [
+      {
+        "n": "Radicación del caso",
+        "r": "Asesor",
+        "m": 0
+      },
+      {
+        "n": "Contacto al cliente y autorizaciones firmadas",
+        "r": "Negociador",
+        "m": 1
+      },
+      {
+        "n": "Solicitud de certificados de deuda",
+        "r": "Negociador",
+        "m": 1
+      },
+      {
+        "n": "Certificados recibidos",
+        "r": "Acreedor / negociador",
+        "m": 5
+      },
+      {
+        "n": "Primera oferta al acreedor",
+        "r": "Negociador",
+        "m": 1
+      },
+      {
+        "n": "Acuerdo firmado por escrito",
+        "r": "Negociador",
+        "m": 7
+      },
+      {
+        "n": "Desembolso y pago al acreedor",
+        "r": "Fábrica / tesorería",
+        "m": 5
+      },
+      {
+        "n": "Paz y salvo y actualización en centrales",
+        "r": "Negociador",
+        "m": 10
+      }
+    ]
+  },
+  "y": {
+    "y-rad": "40",
+    "y-via": "75",
+    "y-exi": "70",
+    "y-des": "90",
+    "y-ext": "60",
+    "y-deuda": "15.000.000",
+    "y-pago": "40",
+    "y-cred": "20.000.000"
+  },
+  "updatedAt": "2026-11-19T17:08:21.001Z",
+  "claveHash": "74d421b1cc6158ff0dde82778f07fd33a4e5e22c032aa463c2fd98ffe92f0d9e"
+}
